@@ -1,7 +1,8 @@
 import org.testng.annotations.Test;
 
 public class Test2 {
-    public static void main(String[] args) {
+    @Test
+    public  void Test1() {
 //        下边赋值语句超过 short 的最大值 32767，程序在编译时就会报错
 //        short s1 = 32768;
 //        数值计算时如果计算结果超长了，程序不会报任何错误，会给你一个错误的结果
